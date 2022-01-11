@@ -1,0 +1,52 @@
+/* Header Styling Starts*/
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(154, 154, 178);
+  width: 1440px;
+  height: 94px;
+  padding: 20px;
+}
+
+header img {
+  height: 51px;
+  width: 40.42px;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Header Styling Ends*/
+
+/* Top Player Styling Starts */
+.top-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+}
+.player {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.player img {
+  width: 56px;
+  height: 56px;
+}
+/* Top Player Styling Ends */
