@@ -317,3 +317,78 @@ __________________________________________*/
     gap: 60px;
   }
 }
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  /* Header */
+
+  .company-logo {
+    height: 48px;
+    width: 35px;
+  }
+
+  nav {
+    gap: 20px;
+  }
+
+  /* -----------------
+      Top Player 
+  -------------------*/
+  .top-players-blogs {
+    border-radius: 5px;
+    width: 620px;
+    height: 650px;
+  }
+  .top-players {
+    justify-content: start;
+    padding-left: 40px;
+  }
+
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 5px;
+  }
+
+  .player img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .player-name {
+    font-size: 14px;
+  }
+
+  /*---------------------
+        Top Blog 
+  ---------------------*/
+
+  .blogs {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: left;
+    grid-column-gap: 20px;
+  }
+
+  .blog-topic h4 {
+    font-size: 14px;
+  }
+  .blog-author {
+    font-size: 12px;
+  }
+
+  .blog img {
+    height: 70px;
+    width: 100px;
+  }
+  /*---------------------
+        Latest Course 
+  ---------------------*/
+  .latest-courses {
+    width: 620px;
+    height: auto;
+  }
+
+  .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
