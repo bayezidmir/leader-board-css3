@@ -223,12 +223,34 @@ Footer Styling Ends here
 __________________________________________*/
 
 @media only screen and (max-width: 688px) {
+  header {
+    padding: 2px 0px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+
+  .company-logo {
+    height: 40px;
+    width: 30.42px;
+  }
+
+  .logo {
+    align-items: center;
+    gap: 5px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
   /* -----------------
       Top Player 
   -------------------*/
   .top-players-blogs {
     border-radius: 5px;
-    width: 380px;
+    width: 320px;
     height: 1100px;
   }
   .top-players {
@@ -280,7 +302,7 @@ __________________________________________*/
         Latest Course 
   ---------------------*/
   .latest-courses {
-    width: 380px;
+    width: 320px;
     height: 1000px;
   }
 
@@ -292,6 +314,6 @@ __________________________________________*/
 
   .course-detail {
     display: flex;
-    gap: 80px;
+    gap: 60px;
   }
 }
