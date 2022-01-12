@@ -161,7 +161,7 @@ Latest Courses Styling Starts here
 }
 .courses {
   display: flex;
-  gap: 0 110px;
+  gap: 0 80px;
   justify-content: center;
 }
 
@@ -227,20 +227,19 @@ __________________________________________*/
       Top Player 
   -------------------*/
   .top-players-blogs {
-    background: #ffffff;
     border-radius: 5px;
     width: 380px;
     height: 1100px;
+  }
+  .top-players {
+    justify-content: start;
+    padding-left: 40px;
   }
 
   .players {
     display: grid;
     grid-template-columns: auto;
     grid-row-gap: 5px;
-  }
-
-  .player {
-    align-items: center;
   }
 
   .player img {
@@ -285,16 +284,14 @@ __________________________________________*/
     height: 1000px;
   }
 
-  /* _________________________________ */
-
-  .thumbnail img {
-    width: 240px;
-    height: 130px;
-  }
-
   .courses {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .course-detail {
+    display: flex;
+    gap: 80px;
   }
 }
